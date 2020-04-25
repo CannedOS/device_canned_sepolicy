@@ -16,3 +16,8 @@ allow platform_app sysfs_thermal:file r_file_perms;
 
 # Allow theme_prop to be read by system ui
 get_prop(platform_app, theme_prop)
+
+# Allow spectrum_prop to be read by system ui
+get_prop(platform_app, spectrum_prop)
+set_prop(platform_app, spectrum_prop)
+

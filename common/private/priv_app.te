@@ -1,2 +1,7 @@
 # Allow Settings to read theme_prop
 get_prop(priv_app, theme_prop)
+
+# Allow Settings to read spectrum_prop
+get_prop(priv_app, spectrum_prop)
+set_prop(priv_app, spectrum_prop)
+
